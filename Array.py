@@ -1,14 +1,12 @@
 
 class Array:
-    def __init__(self, index = 0, value = None):
+    def __init__(self, index = 0):
         self.array_length = 0
-        self.item = {}
-        self.index = index
-        self.item[index] = value
+        self.item = []
+        
+       
 
-        # if index >= self.array_length:
-        #     print("Wrong indexing")
-        # return self.item[index]
+       
         
 #Append method
 
@@ -16,9 +14,7 @@ class Array:
         self.item[self.array_length] = item
         self.array_length += 1
         
-        # for i in range(self.array_length):
-        #     # return [self.item[i]]
-        #     print([self.item[i]])
+        
 
         print([self.item[i] for i in range(self.array_length)])
 
@@ -64,6 +60,11 @@ class Array:
             del item_to_remove
 
             print([self.item[i] for i in range(self.array_length)])
+            
+       
+            
+
+            
             
     
 
