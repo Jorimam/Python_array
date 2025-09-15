@@ -3,33 +3,23 @@ class Array:
     def __init__(self, index = 0):
         self.array_length = 0
         self.item = []
-        
-       
-
-       
-        
+         
 #Append method
 
     def append(self, item):
         self.item[self.array_length] = item
         self.array_length += 1
         
-        
-
         print([self.item[i] for i in range(self.array_length)])
-
-
         
 #Insert method
      
-
     def insert(self, position, item_to_insert):
         self.item_to_insert = item_to_insert
         self.position = position
 
         self.item[self.position] = self.item_to_insert
         
-
 #Pop method
 
     def pop(self, item_to_pop = None):
@@ -51,7 +41,6 @@ class Array:
            self.item_to_pop = item_to_pop 
            del self.item[item_to_pop]
 
-
 #Remove method
         
     def remove(self, item_to_remove):
@@ -61,11 +50,7 @@ class Array:
 
             print([self.item[i] for i in range(self.array_length)])
             
-       
-            
-
-            
-            
+          
     
 
 
