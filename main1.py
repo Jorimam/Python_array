@@ -36,7 +36,8 @@ import array
 # names.append("pip")
 # names.append(others)
 # print(names)
-
+# scores = []
+# print(scores)
 scores = [1,2,4,5,6]
 scores.append(23)
 scores.pop(3)
