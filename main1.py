@@ -30,9 +30,9 @@ print(fruits)
 
 # print(numbers)
 
-# names = []
-# others = [1,2,3,]
-# names.append("bob")
-# names.append("pip")
-# names.append(others)
-# print(names)
+names = []
+others = [1,2,3,]
+names.append("bob")
+names.append("pip")
+names.append(others)
+print(names)
